@@ -1,8 +1,8 @@
 # boot_tools
 Brush recovery for virtual a/b partition devices.
  1.请确保手机为vab分区机型，以root方式执行脚本
- 2.使用前请使用rec解包工具对要刷入的rec进行解包
- 3.将解包出的ramdisk放入./rec_install_tool/ramdisk文件夹
+ 1.使用前请使用rec解包工具对要刷入的rec进行解包
+ 1.将解包出的ramdisk放入./rec_install_tool/ramdisk文件夹
 
  <刷入ramdisk.sh>自动刷入vab机型的rec
  <备份boot.sh>自动备份原镜像
