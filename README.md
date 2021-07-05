@@ -1,4 +1,5 @@
-shell脚本由<酷安@筱寂XIAOJI>制作
+shell脚本由<酷安@筱寂XIAOJI>制作  
+QQ群：935827180
 
 使用说明：  
 <刷入ramdiak.sh>刷入ramdisk至boot  
