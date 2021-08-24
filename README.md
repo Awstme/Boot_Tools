@@ -1,20 +1,21 @@
-shell脚本由<酷安@筱寂XIAOJI>制作  
+shell脚本由<酷安@筱寂XIAOJI>制作
+如果有报错，请截图并进群反馈
 QQ群：935827180
 
-使用说明：  
-<刷入ramdiak.sh>刷入ramdisk至boot  
-<备份boot.sh>备份boot  
-<还原boot.sh>刷入备份的boot  
-请确保手机为vab机型，以root方式执行脚本
+<初始化.sh>第一次使用时执行  
+<刷入.sh>刷入ramdisk至boot  
+<备份.sh>备份boot  
+<还原.sh>刷入备份的boot  
+请确保手机为vab设备，以root方式执行脚本
 
-OTA系统更新说明：  
-1.系统更新更新前执行<恢复boot.sh>  
-2.到系统更新页面下载OTA更新包更新  
-3.等待系统更新校验  
-4.先执行<备份boot.sh>后执行<刷入ramdisk.sh>  
-5.重启后就会有你刷的rec和Magisk
+第一次使用时  
+①用MagiskAPP修补要刷的rec镜像  
+②将修补后的镜像放在此文件夹  
+③执行<初始化.sh>  
 
-第一次使用：  
-1.请更新完整包  
-2.不用执行<恢复boot.sh>  
-3.将要刷的rec在Magisk里修补，放在本文件夹，命名为recovery.img，执行<解包rec.sh>
+OTA系统更新时  
+①在系统更新前执行<恢复.sh>（第一次不用）  
+②到系统更新页面下载OTA更新包更新（第一次请使用完整包）  
+③等待系统更新校验  
+④先执行<备份.sh>后执行<刷入.sh>  
+重启后就会有你刷的rec和Magisk
