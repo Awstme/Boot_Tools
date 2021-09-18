@@ -3,7 +3,7 @@ SLOT=`cat /proc/cmdline | tr '[:space:]' '\n' | sed -rn 's/androidboot.slot.{0,7
 if [[ -n "$SLOT" ]]; then
 echo "当前为slot$SLOT"
 BACKUP="/data/boot_backup/boot$SLOT.img" 
-BOOT="/dev/block/by-name/boot$ALOT"
+BOOT="/dev/block/by-name/boot$SLOT"
 else
 echo "不是vab设备"
 exit
