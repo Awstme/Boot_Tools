@@ -18,7 +18,7 @@ cd -
 cp "./ramdisk.cpio" "$AWSTME/ramdisk.cpio"
 cd $AWSTME
 ./magiskboot repack ./boot.img
-# dd if="./new-boot.img" of="$BOOT"
+dd if="./new-boot.img" of="$BOOT"
 cd -
 rm -rf $AWSTME
 done
