@@ -1,4 +1,4 @@
-# boot_tools
+# Boot_Tools
 ## ![GitHub all releases](https://img.shields.io/github/downloads/Awstme/boot_tools/total?color=%2300FF00)
 - `<初始化.sh>`第一次使用时执行
 - `<刷入.sh>`刷入ramdisk至boot
